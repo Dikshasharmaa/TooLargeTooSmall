@@ -15,7 +15,7 @@ public class Main {
         int secretNum = (int) (Math.random() * ((startNum - endNUm) + 1) + endNUm);
 
         while(true) {
-            System.out.println("Enter a number between" + startNum + "and" + endNUm);
+            System.out.println("Enter a number between " + startNum + " and " + endNUm);
             int userInput = sc.nextInt();
             //if (guessCount < left) {
                 //guessCount++;
@@ -30,7 +30,7 @@ public class Main {
                     System.out.println("Nope! Too small");
                     guessCount++;
                 }
-                System.out.println("you took " + guessCount);
+                System.out.println("you took " + guessCount+ " guess");
 
         }
 
